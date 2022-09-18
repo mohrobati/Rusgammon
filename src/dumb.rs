@@ -1,3 +1,3 @@
 fn smth() {
-    let receiver = foo(arg1, tail, head);
+    let receiver = foo(arg1, &tail, head.clone())
 }
